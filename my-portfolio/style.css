@@ -1,0 +1,301 @@
+/* Body */
+
+
+
+/* Header, Navigation, Top section */
+
+.mountain {
+	background-color: #FFF;
+	background-image: url('image/mountain.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+header a {
+	color: #BABABA;
+}
+
+header a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	transition: color 0.7s;
+}
+
+nav {
+	margin-top: 30px;
+}
+
+nav a {
+	padding-right: 2px;
+	margin-right: 4px;	
+}
+
+hr {
+	width: 96%;
+	margin-top: 7px;
+	color: #BABABA;
+}
+
+/* Home page */
+
+#im {
+	text-align: center;
+	width: 100%;
+	height: 700px;
+	padding-top: 245px;
+	color: #BABABA;
+	font-family: 'Pacifico', cursive;
+}
+
+#im h4 {
+	font-size: 35px;
+}
+
+#button {
+	margin-top: 150px;
+	text-align: center;
+	padding: 25px 24px;
+	border-radius: 3px;
+	font-size: 22px;
+	background-color: #9c3539;
+	border: none;
+	color: #FFF;
+}
+
+#button:hover {
+	background: none;
+	color: #BABABA;
+	transition: color 0.4s;
+}
+
+/* Portfolio */
+
+.portfolio {
+	text-align: center;
+	background: none;
+	width: 100%;
+	height: 400px;
+}
+
+.portfolio h5 {
+	margin-top: 50px;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+	color: #BABABA;
+}
+
+.portfolio img{
+	width: 300px;
+	height:160px;
+	margin-top: 100px;
+}
+
+/* Footer */
+
+footer {
+	color: #BABABA;
+	font-family: 'Pacifico', cursive;
+}
+
+.find img {
+  padding: 0;
+  margin: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+.more {
+	float: right;
+	font-size: 20px;
+}
+
+.more a:hover {
+	text-decoration: none;
+	color: #BABABA;
+	transition: color 0.7s;
+}
+
+/* Contact me Page */
+
+.form {
+	color: #BABABA;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+
+.form p {
+	font-size: 25px;
+}
+
+.lake {
+	background-color: #FFF;
+	background-image: url('image/lake.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+legend {
+	color: #BABABA;
+}
+
+fieldset {
+	width: 400px;
+	margin-top: 20px;
+}
+
+fieldset h4 {
+	font-size: 24px;
+}
+
+fieldset p {
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+fieldset #button {
+	margin-top: 24px;
+}
+
+#send {
+	height:80px;
+	width: 120px;
+	margin-top: 6px;
+	text-align: center;
+	padding: 25px 24px;
+	border-radius: 3px;
+	font-size: 22px;
+	background-color: #9c3539;
+	border: none;
+	color: #FFF;
+}
+
+#send:hover {
+	background: none;
+	color: #BABABA;
+	transition: color 0.4s;
+}
+
+label {
+	font-size: 20px;
+}
+
+textarea, input {
+	color: #000;
+}
+
+span {
+	margin-bottom: 10px;
+}
+
+/* Responsive website */
+
+@media (max-width: 1199px) {
+	#im {
+	height: 600px;
+	padding-top: 190px;		
+	}
+	
+}
+
+@media (max-width: 991px) {
+	.portfolio img {
+		width: 220px;
+		height: 120px;
+		margin-top: 20px;
+	}
+	
+	.portfolio {
+		height: 250px;
+	}
+	
+	.portfolio h5 {
+		margin-top: 30px;
+	}
+	
+	header h2 {
+		font-size: 20px;
+	}
+	
+	#im {
+		height: 400px;
+		padding-top: 60px;		
+	}
+	
+	.find img {
+		padding: 0;
+		margin: 10px;
+		width: 40px;
+		height: 40px;
+	}
+	
+	.find p {
+		font-size: 17px;
+		padding-bottom: 10px;
+	}
+	
+	.form p {
+		font-size: 20px;
+	}
+	
+	fieldset {
+		width: 280px;
+	}
+	
+}
+
+@media (max-width: 767px) {
+	header h2 {
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 0;
+		font-size: 30px;
+	}
+	
+	#nav {
+		margin-top: 10px;
+	}
+	
+	#im h4 {
+		font-size: 20px;
+		padding-top: 0;
+	}
+	
+	#im {
+		height: 290px;
+		padding-top: 35px;
+	}
+	
+	#button {
+		margin-top: 100px;
+		padding: 17px 12px;
+		font-size: 18px;
+	}
+	
+	.portfolio h5 {
+		font-size: 15px;
+		margin-top: 7px;
+	}
+	
+	#projects {
+		height: 500px;
+	}
+	
+	.find h5 {
+		display: inline;
+	}
+	
+	.more {
+		text-align: center;
+	}
+	
+	.form p {
+		font-size: 15px;
+	}
+	
+	fieldset {
+		margin: 13px auto;
+	}
+}
